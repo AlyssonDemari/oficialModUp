@@ -121,11 +121,10 @@ section p {
 }
 
 .card {
-    background: #fff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    max-width: 300px;
+    width: 300px;
     text-align: left;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -466,6 +465,8 @@ section p {
     .contact form {
         padding: 0 10px;
     }
+
+
 }
 
 /* Responsividade para tablets */
@@ -486,11 +487,11 @@ section p {
         font-size: 17px;
     }
 
-    .card {
-        max-width: 45%;
-    }
-
     .contact form {
         padding: 0 20px;
+    }
+    .card {
+        width: 100%;
+        box-shadow: 0 4px 60px rgba(0, 0, 0, 0.1);
     }
 }
