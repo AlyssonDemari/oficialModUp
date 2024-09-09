@@ -12,6 +12,11 @@ body {
     background-color: #e9ebf1; /* Tom de azul claro */
 }
 
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
 /* Estilos do Header */
 .header {
     background: #3b5998; /* Azul semelhante ao do Facebook */
@@ -176,16 +181,17 @@ section p {
 }
 
 /* Estilização do Botão */
-.btnP button {
+.btnP {
     background-color: #4267b2; /* Azul escuro */
-    margin-left: 43%;
     border: none;
+    width: 300px;
+    margin: auto;
     border-radius: 15px;
     padding: 7px;
     cursor: pointer;
     color: #f4f4f4;
 }
-.btnP button:hover {
+.btnP:hover {
     background-color: #29487d; /* Tom mais escuro no hover */
 }
 .chatbot {
