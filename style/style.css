@@ -438,10 +438,12 @@ section p {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
+        padding: 0px;
     }
 
     .nav-links {
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: space-around;
         width: 100%;
         margin-top: 10px;
     }
